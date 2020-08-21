@@ -11,7 +11,6 @@ public class HelloController {
     public String index() {
         //return "I am using SSH keys for deploying images from Jenkins in Kubernetes cluster!!!!\n";
         System.out.println("I am using Github Webhook for Jenkins-Jira integration. Made a small change. Test now!!!");
-        //Fail the build
     }
     
 }
