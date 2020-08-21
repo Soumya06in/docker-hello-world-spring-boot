@@ -9,8 +9,8 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        //return "I am using SSH keys for deploying images from Jenkins in Kubernetes cluster!!!!\n";
-        retun "I am using Github Webhook for Jenkins-Jira integration. Made a small change. Test now!!!\n";
+        return "I am using SSH keys for deploying images from Jenkins in Kubernetes cluster!!!!\n";
+        //retun "I am using Github Webhook for Jenkins-Jira integration. Made a small change. Test now!!!\n";
     }
     
 }
